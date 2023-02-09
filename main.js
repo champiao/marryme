@@ -4,8 +4,8 @@ var stupidButton = {
 	},
 
 	attachEvents: function() {
-		$('#runaway-container').on('hover', this.flyAway);
-		$('#runaway').on('click', this.showWin);
+		$('#runaway').on('hover', this.flyAway);
+		$('#stop').on('click', this.showWin);
 	},
 
 	flyAway: function(e) {
@@ -17,7 +17,7 @@ var stupidButton = {
 	},
 
 	showWin: function(e) {
-		alert('Nice! Here, have a cookie!');
+		alert('Que pena, tento mais tarde');
 	}
 };
 
