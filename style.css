@@ -1,6 +1,6 @@
 body {
 	background: #1d1f20;
-	color: white;
+	color: purple;
 }
 
 .container {
@@ -16,6 +16,7 @@ body {
 	width: 150px;
 	margin: 0 auto;
 	margin-top: 100px;
+	background-color: green;
 }
 
 #runaway {
